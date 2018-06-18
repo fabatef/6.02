@@ -1,0 +1,8 @@
+The files named test-1-unencoded, .., test-6-unencoded are unencoded
+versions.  Encoding them with a maximum dictionary size of 2^16
+produces their corresponding encoded versions.
+
+If you want to test your encoding with an alternative maximum
+dictionary size, we have included test-5-encoded-512 and
+test-6-encoded-512.  These are the result of encoding tests 5 and 6
+with a maximum dictionary size of 512 (i.e., a word size of 9).
